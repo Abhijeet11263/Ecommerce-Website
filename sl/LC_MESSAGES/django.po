@@ -1,15 +1,15 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# iElectric <domen@dev.si>, 2011
 # Jannis Leidel <jannis@leidel.info>, 2011
+# Primož Verdnik <primoz.verdnik@gmail.com>, 2017
 # zejn <zejn@kiberpipa.org>, 2016
 # zejn <zejn@kiberpipa.org>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
+"POT-Creation-Date: 2017-01-19 16:49+0100\n"
 "PO-Revision-Date: 2017-09-23 18:54+0000\n"
 "Last-Translator: Primož Verdnik <primoz.verdnik@gmail.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/django/django/language/"
@@ -21,68 +21,72 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3);\n"
 
-msgid "Advanced options"
-msgstr "Napredne možnosti"
+msgid "GIS"
+msgstr "GIS"
 
-msgid "Flat Pages"
-msgstr "enostavne strani"
-
-msgid "URL"
-msgstr "Naslov URL"
+msgid "The base GIS field."
+msgstr "Osnovno GIS polje"
 
 msgid ""
-"Example: '/about/contact/'. Make sure to have leading and trailing slashes."
+"The base Geometry field -- maps to the OpenGIS Specification Geometry type."
 msgstr ""
-"Primer: '/about/contact/'. Poševnica (/) mora biti na začetku in na koncu "
-"vnosa."
+"Osnovno polje GIS -- se preslika v vrsto Geometry po določilih OpenGIS."
+
+msgid "Point"
+msgstr "Točka"
+
+msgid "Line string"
+msgstr "Črtni niz"
+
+msgid "Polygon"
+msgstr "Mnogokotnik"
+
+msgid "Multi-point"
+msgstr "Več-točkovi predmet"
+
+msgid "Multi-line string"
+msgstr "Več črtni niz"
+
+msgid "Multi polygon"
+msgstr "Večkratni mnogokotnikov"
+
+msgid "Geometry collection"
+msgstr "Zbirka likov"
+
+msgid "Extent Aggregate Field"
+msgstr "Polje z agregiranim območjem"
+
+msgid "Raster Field"
+msgstr "Rastersko polje"
+
+msgid "No geometry value provided."
+msgstr "Ni navedene geometrijske vrednosti."
+
+msgid "Invalid geometry value."
+msgstr "Neveljavna geometrijska vrednost."
+
+msgid "Invalid geometry type."
+msgstr "Neveljavna vrsta geometrije."
 
 msgid ""
-"This value must contain only letters, numbers, dots, underscores, dashes, "
-"slashes or tildes."
+"An error occurred when transforming the geometry to the SRID of the geometry "
+"form field."
 msgstr ""
-"Vsebina lahko vsebuje samo črke, številke, pike, podčrtaje, poševnice, "
-"črtice in tilde."
+"Med pretvarjanjem geometrijskega zapisa v SRID geometrijskega polja je "
+"prišlo do napake."
 
-msgid "URL is missing a leading slash."
-msgstr "Na začetku naslov URL manjka poševnica."
+msgid "Delete all Features"
+msgstr "Pobriši vse atribute"
 
-msgid "URL is missing a trailing slash."
-msgstr "Na koncu naslova URL manjka poševnica."
+msgid "WKT debugging window:"
+msgstr "Okno za razhroščevanje WKT"
+
+msgid "Debugging window (serialized value)"
+msgstr "Okno za razhroščevanje (serializirana vrednost)"
+
+msgid "No feeds are registered."
+msgstr "Ni vpisanih virov."
 
 #, python-format
-msgid "Flatpage with url %(url)s already exists for site %(site)s"
-msgstr "Enostavna stran na naslovu %(url)s že obstaja na strani %(site)s"
-
-msgid "title"
-msgstr "naslov"
-
-msgid "content"
-msgstr "vsebina"
-
-msgid "enable comments"
-msgstr "omogoči opombe"
-
-msgid "template name"
-msgstr "ime predloge"
-
-msgid ""
-"Example: 'flatpages/contact_page.html'. If this isn't provided, the system "
-"will use 'flatpages/default.html'."
-msgstr ""
-"Primer: 'flatpages/contact_page.html'. Kadar je to polje prazno, sistem "
-"uporabi 'flatpages/default.html'."
-
-msgid "registration required"
-msgstr "zahtevana je registracija"
-
-msgid "If this is checked, only logged-in users will be able to view the page."
-msgstr "Izbrana možnost omogoča ogled strani le prijavljenim uporabnikom."
-
-msgid "sites"
-msgstr "strani"
-
-msgid "flat page"
-msgstr "enostavna stran"
-
-msgid "flat pages"
-msgstr "enostavne strani"
+msgid "Slug %r isn't registered."
+msgstr "Okrajšava %r ni vpisana."
