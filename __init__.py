@@ -1,19 +1,26 @@
-from typing import List, Optional
+__all__ = [
+    "__version__",
+    "AbstractProvider",
+    "AbstractResolver",
+    "BaseReporter",
+    "InconsistentCandidate",
+    "Resolver",
+    "RequirementsConflicted",
+    "ResolutionError",
+    "ResolutionImpossible",
+    "ResolutionTooDeep",
+]
 
-import pip._internal.utils.inject_securetransport  # noqa
-from pip._internal.utils import _log
-
-# init_logging() must be called before any call to logging.getLogger()
-# which happens at import of most modules.
-_log.init_logging()
+__version__ = "0.8.1"
 
 
-def main(args: (Optional[List[str]]) = None) -> int:
-    """This is preserved for old console scripts that may still be referencing
-    it.
-
-    For additional details, see https://github.com/pypa/pip/issues/7498.
-    """
-    from pip._internal.utils.entrypoints import _wrapper
-
-    return _wrapper(args)
+from .providers import AbstractProvider, AbstractResolver
+from .reporters import BaseReporter
+from .resolvers import (
+    InconsistentCandidate,
+    RequirementsConflicted,
+    ResolutionError,
+    ResolutionImpossible,
+    ResolutionTooDeep,
+    Resolver,
+)
