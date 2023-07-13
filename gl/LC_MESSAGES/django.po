@@ -18,20 +18,20 @@ msgstr ""
 "Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
+msgid "Sites"
 msgstr ""
 
-msgid "session key"
-msgstr "chave da sesión"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "O dominio non pode conter espazos nin tabulacións."
 
-msgid "session data"
-msgstr "datos da sesión"
+msgid "domain name"
+msgstr "dominio"
 
-msgid "expire date"
-msgstr "data de caducidade"
+msgid "display name"
+msgstr "nome"
 
-msgid "session"
-msgstr "sesión"
+msgid "site"
+msgstr "sitio"
 
-msgid "sessions"
-msgstr "sesións"
+msgid "sites"
+msgstr "sitios"
