@@ -2,16 +2,15 @@
 #
 # Translators:
 # Elias Johnstone <eli87as@gmail.com>, 2022
-# Gustaf Hansen <gustaf.hansen@gmail.com>, 2015
-# Jonathan Lindén, 2015
-# Petter Strandmark <petter.strandmark@gmail.com>, 2019
-# Thomas Lundqvist, 2016
+# Jannis Leidel <jannis@leidel.info>, 2011
+# Jonathan Lindén, 2014
+# Thomas Lundqvist, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2022-07-19 09:22+0000\n"
+"POT-Creation-Date: 2021-01-15 09:00+0100\n"
+"PO-Revision-Date: 2022-07-24 18:32+0000\n"
 "Last-Translator: Elias Johnstone <eli87as@gmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/django/django/language/"
 "sv/)\n"
@@ -21,92 +20,34 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "PostgreSQL-tillägg"
+msgid "Redirects"
+msgstr "Omdirigeringar"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "Element %(nth)s i arrayen gick inte att validera:"
+msgid "site"
+msgstr "webbplats"
 
-msgid "Nested arrays must have the same length."
-msgstr "Flerdimensionella arrayer måste vara av samma längd"
+msgid "redirect from"
+msgstr "omdirigera från"
 
-msgid "Map of strings to strings/nulls"
-msgstr "Funktion från sträng till sträng/null"
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
-msgstr "Värdet av “%(key)s” är inte en sträng eller null."
-
-msgid "Could not load JSON data."
-msgstr "Kunde inte ladda JSON-data."
-
-msgid "Input must be a JSON dictionary."
-msgstr "Input måste vara en JSON-dictionary."
-
-msgid "Enter two valid values."
-msgstr "Fyll i två giltiga värden"
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "Starten av intervallet kan inte vara större än slutet av intervallet."
-
-msgid "Enter two whole numbers."
-msgstr "Fyll i två heltal."
-
-msgid "Enter two numbers."
-msgstr "Fyll i två tal."
-
-msgid "Enter two valid date/times."
-msgstr "Fyll i två giltiga datum/tider."
-
-msgid "Enter two valid dates."
-msgstr "Fyll i två giltiga datum."
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-"Listan innehåller %(show_value)d objekt, men kan inte innehålla fler än "
-"%(limit_value)d."
-msgstr[1] ""
-"Listan innehåller %(show_value)d objekt, men kan inte innehålla fler än "
-"%(limit_value)d."
-
-#, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-"Listan innehåller %(show_value)d objekt, men kan inte innehålla färre än "
-"%(limit_value)d."
-msgstr[1] ""
-"Listan innehåller %(show_value)d objekt, men kan inte innehålla färre än "
-"%(limit_value)d."
-
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Några nycklar saknades: %(keys)s"
-
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "Några okända okända nycklar skickades: %(keys)s"
-
-#, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
+"This should be an absolute path, excluding the domain name. Example: “/"
+"events/search/”."
 msgstr ""
-"Säkerställ att denna intervall är mindre än eller lika med %(limit_value)s."
+"Detta bör vara en absolut sökväg utan domännamnet. Exempel: '/handelser/"
+"sok/'."
 
-#, python-format
+msgid "redirect to"
+msgstr "omdirigera till"
+
 msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
+"This can be either an absolute path (as above) or a full URL starting with a "
+"scheme such as “https://”."
 msgstr ""
-"Säkerställ att denna intervall är större än eller lika med %(limit_value)s."
+"Detta kan vara antingen en absolut sökväg (som ovan) eller en fullständig "
+"URL som börjar med 'https://'."
+
+msgid "redirect"
+msgstr "omdirigera"
+
+msgid "redirects"
+msgstr "omdirigeringar"
