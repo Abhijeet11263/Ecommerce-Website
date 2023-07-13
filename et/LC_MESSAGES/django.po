@@ -1,18 +1,16 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# eallik <eallik@gmail.com>, 2011
 # Jannis Leidel <jannis@leidel.info>, 2011
 # Janno Liivak <jannolii@gmail.com>, 2013-2015
 # madisvain <madisvain@gmail.com>, 2011
-# Martin Pajuste <martinpajuste@gmail.com>, 2015
 # Ragnar Rebase <rrebase@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-08 17:27+0200\n"
-"PO-Revision-Date: 2019-12-28 02:37+0000\n"
+"PO-Revision-Date: 2019-12-28 02:36+0000\n"
 "Last-Translator: Ragnar Rebase <rrebase@gmail.com>\n"
 "Language-Team: Estonian (http://www.transifex.com/django/django/language/"
 "et/)\n"
@@ -22,70 +20,70 @@ msgstr ""
 "Language: et\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "GIS"
-msgstr "GIS"
+msgid "Advanced options"
+msgstr "Lisavalikud"
 
-msgid "The base GIS field."
-msgstr "Baas GIS väli."
+msgid "Flat Pages"
+msgstr "Sisulehed"
+
+msgid "URL"
+msgstr "URL"
 
 msgid ""
-"The base Geometry field — maps to the OpenGIS Specification Geometry type."
+"Example: “/about/contact/”. Make sure to have leading and trailing slashes."
 msgstr ""
-"Baas Geomeetria väli -- ühildub OpenGIS Spetsifikatsiooni Geomeetria tüübiga."
-
-msgid "Point"
-msgstr "Punkt"
-
-msgid "Line string"
-msgstr "Üherea tekst"
-
-msgid "Polygon"
-msgstr "Polügon"
-
-msgid "Multi-point"
-msgstr "Multi-punkt"
-
-msgid "Multi-line string"
-msgstr "Mitmerealine string"
-
-msgid "Multi polygon"
-msgstr "Multi-polügon"
-
-msgid "Geometry collection"
-msgstr "Geomeetriakogum"
-
-msgid "Extent Aggregate Field"
-msgstr "Laiendi Agregeeritud Väli"
-
-msgid "Raster Field"
-msgstr "Rastri Väli"
-
-msgid "No geometry value provided."
-msgstr "Geomeetriline väärtus puudub."
-
-msgid "Invalid geometry value."
-msgstr "Vigane geomeetriline väärtus."
-
-msgid "Invalid geometry type."
-msgstr "Vigane geomeetriline tüüp."
+"Näide: “/about/contact/”. Veenduge, et URL algaks ja lõppeks kaldkriipsuga."
 
 msgid ""
-"An error occurred when transforming the geometry to the SRID of the geometry "
-"form field."
-msgstr "Geomeetria teisendamisel geomeetria vormivälja SRID-ks tekkis viga."
+"This value must contain only letters, numbers, dots, underscores, dashes, "
+"slashes or tildes."
+msgstr ""
+"See väärtus peab sisaldama ainult tähti, numbreid, punkte, alakriipse, "
+"kriipse, kaldkriipse või tildeseid."
 
-msgid "Delete all Features"
-msgstr "Kustuta kõik Vahendid"
+msgid "Example: “/about/contact”. Make sure to have a leading slash."
+msgstr "Näide: “/about/contact”. Veenduge, et URL algaks kaldkriipsuga."
 
-msgid "WKT debugging window:"
-msgstr "WKT silumisaken:"
+msgid "URL is missing a leading slash."
+msgstr "Internetiaadressil puudub alustav kaldkriips"
 
-msgid "Debugging window (serialized value)"
-msgstr "Siluri aken (järjestikväärtus)"
-
-msgid "No feeds are registered."
-msgstr "Ühtegi voogu pole registreeritud."
+msgid "URL is missing a trailing slash."
+msgstr "Internetiaadressil puudub lõpetav kaldkriips"
 
 #, python-format
-msgid "Slug %r isn’t registered."
-msgstr "Nälk %r ei ole registeeritud."
+msgid "Flatpage with url %(url)s already exists for site %(site)s"
+msgstr "Saidil %(site)s on sisuleht aadressiga %(url)s juba olemas"
+
+msgid "title"
+msgstr "pealkiri"
+
+msgid "content"
+msgstr "sisu"
+
+msgid "enable comments"
+msgstr "võimalda kommentaarid"
+
+msgid "template name"
+msgstr "mall"
+
+msgid ""
+"Example: “flatpages/contact_page.html”. If this isn’t provided, the system "
+"will use “flatpages/default.html”."
+msgstr ""
+"Näide: “flatpages/contact_page.html”.  Kui mall on määramata, kasutatakse "
+"vaikimisi malli “flatpages/default.html”."
+
+msgid "registration required"
+msgstr "registreerumine nõutav"
+
+msgid "If this is checked, only logged-in users will be able to view the page."
+msgstr "Kui see on valitud, näevad lehte ainult sisselogitud kasutajad"
+
+msgid "sites"
+msgstr "saidid"
+
+msgid "flat page"
+msgstr "sisuleht"
+
+msgid "flat pages"
+msgstr "sisulehed"
