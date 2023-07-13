@@ -2,14 +2,13 @@
 #
 # Translators:
 # fasouto <fsoutomoure@gmail.com>, 2011
-# fonso <fonzzo@gmail.com>, 2011,2013
-# Jannis Leidel <jannis@leidel.info>, 2011
+# fonso <fonzzo@gmail.com>, 2013
 # Leandro Regueiro <leandro.regueiro@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
+"POT-Creation-Date: 2017-01-19 16:49+0100\n"
 "PO-Revision-Date: 2017-09-23 18:54+0000\n"
 "Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
 "Language-Team: Galician (http://www.transifex.com/django/django/language/"
@@ -20,67 +19,71 @@ msgstr ""
 "Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Advanced options"
-msgstr "Opcións avanzadas"
-
-msgid "Flat Pages"
+msgid "GIS"
 msgstr ""
 
-msgid "URL"
-msgstr "URL"
+msgid "The base GIS field."
+msgstr ""
 
 msgid ""
-"Example: '/about/contact/'. Make sure to have leading and trailing slashes."
+"The base Geometry field -- maps to the OpenGIS Specification Geometry type."
 msgstr ""
-"Exemplo: '/about/contact/'. Lembre incluír as barras ao principio e ao final."
+
+msgid "Point"
+msgstr "Punto"
+
+msgid "Line string"
+msgstr "Secuencia de liñas"
+
+msgid "Polygon"
+msgstr "Polígono"
+
+msgid "Multi-point"
+msgstr "Punto múltiple"
+
+msgid "Multi-line string"
+msgstr "Cadea multi-liña"
+
+msgid "Multi polygon"
+msgstr "Multi polígono"
+
+msgid "Geometry collection"
+msgstr "Colección de xeometrías"
+
+msgid "Extent Aggregate Field"
+msgstr ""
+
+msgid "Raster Field"
+msgstr ""
+
+msgid "No geometry value provided."
+msgstr "Non se proporcionou un valor de xeometría."
+
+msgid "Invalid geometry value."
+msgstr "Valor xeométrico non válido."
+
+msgid "Invalid geometry type."
+msgstr "Tipo xeométrico non válido."
 
 msgid ""
-"This value must contain only letters, numbers, dots, underscores, dashes, "
-"slashes or tildes."
+"An error occurred when transforming the geometry to the SRID of the geometry "
+"form field."
 msgstr ""
-"Este valor soamente pode conter letras, números, puntos, guións baixos, "
-"guións, barras inclinadas e tiles do eñe (~)."
+"Atopouse un erro mentras se trasnformaba a xeometría ó SRID do campo "
+"xeométrico do formulario."
 
-msgid "URL is missing a leading slash."
-msgstr "Falta unha barra inclinada no principio da URL."
+msgid "Delete all Features"
+msgstr ""
 
-msgid "URL is missing a trailing slash."
-msgstr "Falta unha barra inclinada no final da URL."
+msgid "WKT debugging window:"
+msgstr ""
+
+msgid "Debugging window (serialized value)"
+msgstr ""
+
+msgid "No feeds are registered."
+msgstr "Non hai feeds rexistradas."
 
 #, python-format
-msgid "Flatpage with url %(url)s already exists for site %(site)s"
-msgstr "Xa existe unha páxina simple con url %(url)s no sitio %(site)s"
-
-msgid "title"
-msgstr "título"
-
-msgid "content"
-msgstr "contido"
-
-msgid "enable comments"
-msgstr "activar comentarios"
-
-msgid "template name"
-msgstr "nome da plantilla"
-
-msgid ""
-"Example: 'flatpages/contact_page.html'. If this isn't provided, the system "
-"will use 'flatpages/default.html'."
-msgstr ""
-"Exemplo: 'flatpages/contact_page.html'. Se non se especifica, o sistema "
-"usará 'flatpages/default.html'."
-
-msgid "registration required"
-msgstr "require rexistro"
-
-msgid "If this is checked, only logged-in users will be able to view the page."
-msgstr "Se se marca, só poderán ver a páxina os usuarios identificados."
-
-msgid "sites"
-msgstr ""
-
-msgid "flat page"
-msgstr "páxina simple"
-
-msgid "flat pages"
-msgstr "páxinas simples"
+msgid "Slug %r isn't registered."
+msgstr "A url curta %r non está rexistrada."
