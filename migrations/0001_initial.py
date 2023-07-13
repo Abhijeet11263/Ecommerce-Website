@@ -1,17 +1,13 @@
-import django.contrib.admin.models
-from django.conf import settings
+import django.contrib.contenttypes.models
 from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-    dependencies = [
-        migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ("contenttypes", "__first__"),
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name="LogEntry",
+            name="ContentType",
             fields=[
                 (
                     "id",
@@ -22,54 +18,28 @@ class Migration(migrations.Migration):
                         primary_key=True,
                     ),
                 ),
+                ("name", models.CharField(max_length=100)),
+                ("app_label", models.CharField(max_length=100)),
                 (
-                    "action_time",
-                    models.DateTimeField(auto_now=True, verbose_name="action time"),
-                ),
-                (
-                    "object_id",
-                    models.TextField(null=True, verbose_name="object id", blank=True),
-                ),
-                (
-                    "object_repr",
-                    models.CharField(max_length=200, verbose_name="object repr"),
-                ),
-                (
-                    "action_flag",
-                    models.PositiveSmallIntegerField(verbose_name="action flag"),
-                ),
-                (
-                    "change_message",
-                    models.TextField(verbose_name="change message", blank=True),
-                ),
-                (
-                    "content_type",
-                    models.ForeignKey(
-                        on_delete=models.SET_NULL,
-                        blank=True,
-                        null=True,
-                        to="contenttypes.ContentType",
-                        verbose_name="content type",
-                    ),
-                ),
-                (
-                    "user",
-                    models.ForeignKey(
-                        to=settings.AUTH_USER_MODEL,
-                        on_delete=models.CASCADE,
-                        verbose_name="user",
+                    "model",
+                    models.CharField(
+                        max_length=100, verbose_name="python model class name"
                     ),
                 ),
             ],
             options={
-                "ordering": ["-action_time"],
-                "db_table": "django_admin_log",
-                "verbose_name": "log entry",
-                "verbose_name_plural": "log entries",
+                "ordering": ("name",),
+                "db_table": "django_content_type",
+                "verbose_name": "content type",
+                "verbose_name_plural": "content types",
             },
             bases=(models.Model,),
             managers=[
-                ("objects", django.contrib.admin.models.LogEntryManager()),
+                ("objects", django.contrib.contenttypes.models.ContentTypeManager()),
             ],
+        ),
+        migrations.AlterUniqueTogether(
+            name="contenttype",
+            unique_together={("app_label", "model")},
         ),
     ]
